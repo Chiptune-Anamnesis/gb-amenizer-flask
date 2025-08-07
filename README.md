@@ -27,8 +27,20 @@ A small Python Flask web app that takes a `.raw` audio sample, applies a 4-bit c
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/gb-amenizer-replacer.git
+   git clone https://github.com/Chiptune-Anamnesis/gb-amenizer-replacer.git
    cd gb-amenizer-replacer
+   
+2. **Install requirements**  
+   ```bash
+   pip install -r requirements.txt
+
+4. **Set environmental variable**  
+   ```bash
+   export FLASK_APP=web.py
+
+3. **Run flask app**  
+   ```bash
+   flask run
    
 ---
 
